@@ -18,7 +18,39 @@
     <!-- Header -->
     <header id="home">
         <!-- Navbar  -->
-        <nav></nav>
+        <nav class="navbar">
+            <div class="nav-center">
+                <!-- Nav header -->
+                <div class="nav-header">
+                    <img src="./images/logo.svg" alt="" class="nav-logo">
+                    <button type="button" class="nav-toggle" aria-label="nav toggler">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <!-- End of Nav header -->
+                <!-- Nav Links -->
+                <div class="nav-links" id="nav-links">
+                    <a href="#home" class="nav-link">home</a>
+                    <a href="#about" class="nav-link">about</a>
+                    <a href="#services" class="nav-link">services</a>
+                    <a href="#featured" class="nav-link">featured</a>
+                    <a href="#gallery" class="nav-link">gallery</a>
+                </div>
+                <!-- End of Nav Links -->
+                <!-- Nav social -->
+                <div class="nav-icons">
+                    <a href="#" target="_bland" class="nav-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" target="_bland" class="nav-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" target="_bland" class="nav-icon">
+                        <i class="fab fa-squarespace"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
         <!-- Hero component -->
         <div class="hero">
             <div class="hero-banner">
@@ -277,9 +309,58 @@
                 </span>
             </div>
             <!-- End Single item -->
+            <div class="gallery-img-container">
+                <img src="./images/gallery4.jpeg" alt="gallẻy" class="gallery-img">
+                <span class="gallery-icon">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+            <!-- End Single item -->
         </div>
     </section>
     <!-- End of Gallery-->
+    <!-- Deals -->
+    <section class="section deals" id="deals">
+        <!-- Title -->
+        <div class="title-wrapper">
+            <h2 class="title">hot <span class="subtitle">deals</span></h2>
+        </div>
+        <!-- End of Title -->
+        <form action="">
+            <div class="input-group">
+                <input type="email" name="" class="form-control" placeholder="Your email">
+                <button type="submit" class="btn-submit">submit</button>
+            </div>
+        </form>
+    </section>
+    <!-- End of Deals -->
+    <!-- Footer -->
+    <footer class="section footer">
+        <!--footer links -->
+        <div class="footer-links">
+            <a href="#home" class="footer-link">home</a>
+            <a href="#about" class="footer-link">about</a>
+            <a href="#services" class="footer-link">services</a>
+            <a href="#featured" class="footer-link">featured</a>
+            <a href="#gallery" class="footer-link">gallery</a>
+        </div>
+        <!-- footer icon -->
+        <div class="footer-icons">
+            <a href="#" target="_bland" class="footer-icon">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" target="_bland" class="footer-icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" target="_bland" class="footer-icon">
+                <i class="fab fa-squarespace"></i>
+            </a>
+        </div>
+        <p class="copyright">
+            copyright &copy; backroads travel tours company <span id="date">2021</span>
+        </p>
+    </footer>
+    <!-- End of Footer -->
 </body>
 
 </html>
