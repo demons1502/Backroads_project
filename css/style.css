@@ -523,6 +523,16 @@ a {
   padding-left: 2.5rem;
 }
 
+/* 271.44 */
+.nav-links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--mainTransition);
+}
+
+.show-links {
+  height: 270px;
+}
 @media screen and (min-width: 992px) {
   .nav-toggle {
     display: none;
@@ -572,3 +582,14 @@ a {
 }
 
 /* ******* End of Navbar ******* */
+/* Fixed Navbar */
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--mainGrey);
+  transition: var(--mainTransition);
+  box-shadow: var(--lightShadow);
+  z-index: 1;
+}
